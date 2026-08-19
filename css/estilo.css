@@ -1,0 +1,19 @@
+/* Seleciona todos os elementos do html  */
+*{
+    /* Zerar os espaçamentos dos elementos */
+    margin: 0;
+    padding: 0;
+    /* Considera a borda ao definir largura e altura */
+    box-sizing: border-box;
+}
+
+body{
+    /* Define uma família padrão de fonte  */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Define o tamanho padrão da fonte  */
+    font-size: 16px;
+    /* Define cor de fonte padrão  */
+    color: #333;
+    /* Define o alinhamento padrão dos textos  */
+    text-align: center;
+}
