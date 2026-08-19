@@ -17,3 +17,16 @@ body{
     /* Define o alinhamento padrão dos textos  */
     text-align: center;
 }
+
+/* Seleciona todos os elementos com a 
+classe "container" */
+.container{
+    /* Define a largura miníma  */
+    min-width: 400px;
+    /* Define a largura máxima */
+    max-width: 1200px;
+    /* Define uma cor de fundo */
+    background-color: gray;
+    /* Centraliza container  */
+    margin: 0 auto;
+}
