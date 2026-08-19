@@ -30,3 +30,42 @@ classe "container" */
     /* Centraliza container  */
     margin: 0 auto;
 }
+
+header{
+    background-color: #333;
+}
+
+a.logo{
+    /* inline-block permite que o elemento
+    tenha altura e largura */
+    display: inline-block;
+    width: 150px;
+}
+
+a.logo>img{
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+a:link,
+a:visited{
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+.banner{
+    /* Define uma imagem de fundo  */
+    background-image: url(../img/banner.jpg);
+    /* Define a altura do elemento  */
+    height: 300px;
+    /* Define o tamanho da imagem de fundo  */
+    background-size: cover;
+    /* Define a posição do fundo  */
+    background-position: center;
+}
+
+
+
